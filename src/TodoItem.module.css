@@ -1,0 +1,20 @@
+.todo_item {
+  display: flex;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.todo_item.checked label {
+  text-decoration: line-through;
+  color: gray;
+}
+.todo_item label {
+  flex-grow: 1;
+}
+.todo_item .remove_btn {
+  height: 32px;
+  border: 1px solid #b83030;
+  padding: 0 10px;
+  border-radius: 4px;
+  background: none;
+  color: #b83030;
+}
